@@ -124,7 +124,7 @@ ORDER BY subject, subject_rank;
 
 
 -- =============================
--- 4️⃣ Optional: Subject engagement by average subscribers
+-- 4️⃣ Subject engagement by average subscribers
 -- =============================
 
 WITH subject_engagement AS (
