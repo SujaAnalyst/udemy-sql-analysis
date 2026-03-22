@@ -8,8 +8,8 @@ SQL queries were written to clean, transform, and analyze data to support data-d
 ---
 
 ## Dataset
-- Source: Kaggle – Udemy Courses Dataset ( Public dataset used for educational and portfolio purposes)
-
+- Source: Kaggle – Udemy Courses Dataset
+- Public dataset used for educational and portfolio purposes
 - Records include:
   - Course title, subject, level
   - Price (free vs paid)
@@ -49,7 +49,7 @@ SQL queries were written to clean, transform, and analyze data to support data-d
 - Which subjects show the highest average engagement?
 
 ---
-## Key Analysis Performed
+## Key Analyses Performed
 
 - Course popularity analysis by subject
 - Free vs paid course comparison
@@ -63,7 +63,7 @@ SQL queries were written to clean, transform, and analyze data to support data-d
 
 This query standardizes course levels, converts data types, handles missing values, and creates a cleaned dataset for reliable analysis.
 
-```markdown
+
 ```sql
 WITH cleaned_courses AS (
     SELECT
@@ -106,7 +106,7 @@ FROM cleaned_courses;
 ## 2. Subject Popularity Analysis
 
 This query identifies the most popular course subjects by calculating the number of courses and total subscribers for each subject.
-```markdown
+
 ```sql
 SELECT 
     subject,
@@ -121,7 +121,6 @@ ORDER BY total_subscribers DESC;
 
 This query compares free and paid courses to understand pricing patterns and subscriber distribution.
 
-```markdown
 ```sql
 SELECT 
     is_paid,
@@ -135,7 +134,6 @@ GROUP BY is_paid;
 
 This query ranks courses within each subject using a window function to identify the top-performing courses based on subscriber count.
 
-```markdown
 ```sql
 WITH ranked_courses AS (
     SELECT
@@ -169,13 +167,9 @@ ORDER BY subject, subject_rank;
 ##  Key Takeaways
 - Beginner-level courses tend to attract higher average subscribers
 - Certain subjects consistently dominate subscriber engagement
-- Free courses drive volume, while paid courses show pricing patterns worth exploring
+- Free courses drive higher enrollment volume, while paid courses create revenue opportunities
 
 ---
-## Data Source
-
-Kaggle – Udemy Courses Dataset  
-Public dataset used for educational and portfolio purposes.
 
 ## Author
 Suja  
