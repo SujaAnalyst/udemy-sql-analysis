@@ -2,13 +2,12 @@
 # Udemy SQL Analysis Project
 
 ##  Project Overview
-This project analyzes Udemy course data using SQL to understand course popularity, pricing patterns, subscriber trends, and content performance across different subjects and levels.
+This project analyzes customer and transaction data using SQL to identify trends, customer behavior, and revenue insights.
 
-The focus of this project is on **data cleaning, transformation, and analytical querying** using real-world messy data.
-
+SQL queries were written to extract, aggregate, and analyze business data to support decision-making.
 ---
 
-## 📂Dataset
+## Dataset
 - Source: Kaggle – Udemy Courses Dataset
 - Records include:
   - Course title, subject, level
@@ -48,6 +47,15 @@ The focus of this project is on **data cleaning, transformation, and analytical 
 - Which subjects show the highest average engagement?
 
 ---
+## Key Analysis Performed
+
+- Customer segmentation
+- Revenue analysis
+- Top-performing products
+- Sales trends
+- Aggregate reporting using GROUP BY
+- Multi-table joins
+---
 
 ##  Project Files
 - `udemy_sql_analysis.sql` – SQL queries for cleaning and analysis
@@ -62,6 +70,6 @@ The focus of this project is on **data cleaning, transformation, and analytical 
 
 ---
 
-## 👩‍💻 Author
+##  Author
 Suja  
 Aspiring Data Analyst
