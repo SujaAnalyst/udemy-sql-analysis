@@ -2,7 +2,7 @@
 -- 1️⃣ Data Cleaning and Storage
 -- =============================
 
--- We create a cleaned version of the dataset for analysis
+-- Creating a cleaned version of the dataset for analysis
 -- Raw table (Udemy_Courses) is preserved
 -- Cleaned table will be stored permanently
 WITH cleaned_courses AS (
