@@ -163,9 +163,17 @@ ORDER BY subject, subject_rank;
 
 ---
 
+## How to Run
+
+1. Import the dataset into SQL Server
+2. Execute the SQL script `udemy_sql_analysis.sql`
+3. Review query outputs for analysis results
+   
+---
+
 ##  Key Takeaways
 - Beginner-level courses tend to attract higher average subscribers
-- Certain subjects consistently dominate subscriber engagement
+- Technology-related subjects consistently dominate subscriber engagement
 - Free courses drive higher enrollment volume, while paid courses create revenue opportunities
 
 ---
