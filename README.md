@@ -167,7 +167,7 @@ ORDER BY subject, subject_rank;
 ## How to Run
 
 1. Import the dataset into SQL Server
-2. Execute the SQL script `udemy_sql_analysis.sql`
+2. Execute the SQL script [udemy_sql_analysis.sql](udemy_sql_analysis.sql)
 3. Review query outputs for analysis results
    
 ---
