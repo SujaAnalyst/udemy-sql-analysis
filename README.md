@@ -59,10 +59,9 @@ SQL queries were written to clean, transform, and analyze data to support data-d
 - Data cleaning and transformation using CASE and CAST
 ---
 ## Sample SQL Queries
-## 1. Data Cleaning and Transformation
+### 1. Data Cleaning and Transformation
 
 This query standardizes course levels, converts data types, handles missing values, and creates a cleaned dataset for reliable analysis.
-
 
 ```sql
 WITH cleaned_courses AS (
@@ -103,7 +102,7 @@ SELECT *
 INTO cleaned_courses_table
 FROM cleaned_courses;
 ```
-## 2. Subject Popularity Analysis
+### 2. Subject Popularity Analysis
 
 This query identifies the most popular course subjects by calculating the number of courses and total subscribers for each subject.
 
@@ -117,7 +116,7 @@ FROM cleaned_courses_table
 GROUP BY subject
 ORDER BY total_subscribers DESC;
 ```
-## 3. Free vs Paid Course Analysis
+### 3. Free vs Paid Course Analysis
 
 This query compares free and paid courses to understand pricing patterns and subscriber distribution.
 
@@ -130,7 +129,7 @@ SELECT
 FROM cleaned_courses_table
 GROUP BY is_paid;
 ```
-## 4. Top 5 Courses per Subject (Ranking)
+### 4. Top 5 Courses per Subject (Ranking)
 
 This query ranks courses within each subject using a window function to identify the top-performing courses based on subscriber count.
 
