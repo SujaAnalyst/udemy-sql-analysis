@@ -157,9 +157,10 @@ ORDER BY subject, subject_rank;
 ```
 ---
 
-##  Project Files
-- `udemy_sql_analysis.sql` – SQL queries for cleaning and analysis
-- `README.md` – Project documentation
+## Project Files
+
+- [udemy_sql_analysis.sql](udemy_sql_analysis.sql) – SQL queries for cleaning and analysis
+- [README.md](README.md) – Project documentation
 
 ---
 
